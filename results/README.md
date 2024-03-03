@@ -56,7 +56,7 @@ The same process for Fox News and MSNBC. Table 3 shows the z-scores for the top 
 
 <img src="Fox_MSNBC_table copy.png" alt="Flowchart" width="600"/>
 
-<img src="fw_MsnbcFox_distribution_plot copy.pngg" alt="Flowchart" width="600"/>
+<img src="fw_MsnbcFox_distribution_plot copy.png" alt="Flowchart" width="600"/>
 
 <img src="top_wrds_msnbc_fox copy.png" alt="Flowchart" width="600"/>
 
@@ -77,6 +77,8 @@ Fox News emphasizes attributing blame and expressing opinions on environmental t
 ## TF-IDF
 Comparing TF-IDF and Fighting Words helps evaluate model performance and interpretability. TF-IDF, a traditional method for feature extraction, assesses word importance by considering frequency within a document and rarity across the corpus. In contrast, Fighting Words, by Monroe et al., identifies words significantly associated with one group versus another. By comparing both methods' outputs, we can capture linguistic nuances and distinctive features in environmental news coverage, as well as comparing the innovative method with a baseline that is traditionally used. Moreover, Matthew Denny in his paper “Revisiting Fightin’ Words: Feature Selection Using an Informed Dirichlet Model” (2016) provides an alternative approach to improve TF-IDF. He proposes the following measure:
 
-$ \text{tf}"-" \text{idf}_{(w,k)}^{(i)} = \text{average} \, \text{tf}_{(w,k)}^{(i)} \times \text{idf}_w $
+![\text{tf}"-" \text{idf}_{(w,k)}^{(i)} = \text{average} \, \text{tf}_{(w,k)}^{(i)} \times \text{idf}_w](https://render.githubusercontent.com/render/math?math=%5Ctext%7Btf%7D%22-%22%20%5Ctext%7Bidf%7D_%7B%28w%2Ck%29%7D%5E%7B%28i%29%7D%20%3D%20%5Ctext%7Baverage%7D%20%5C%2C%20%5Ctext%7Btf%7D_%7B%28w%2Ck%29%7D%5E%7B%28i%29%7D%20%5Ctimes%20%5Ctext%7Bidf%7D_w)
+
+
 
 
