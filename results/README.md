@@ -77,5 +77,6 @@ Fox News emphasizes attributing blame and expressing opinions on environmental t
 ## TF-IDF
 Comparing TF-IDF and Fighting Words helps evaluate model performance and interpretability. TF-IDF, a traditional method for feature extraction, assesses word importance by considering frequency within a document and rarity across the corpus. In contrast, Fighting Words, by Monroe et al., identifies words significantly associated with one group versus another. By comparing both methods' outputs, we can capture linguistic nuances and distinctive features in environmental news coverage, as well as comparing the innovative method with a baseline that is traditionally used. Moreover, Matthew Denny in his paper “Revisiting Fightin’ Words: Feature Selection Using an Informed Dirichlet Model” (2016) provides an alternative approach to improve TF-IDF. He proposes the following measure:
 
-\[ \text{tf}"-" \text{idf}_{(w,k)}^{(i)} = \text{average} \, \text{tf}_{(w,k)}^{(i)} \times \text{idf}_w \]
+$ \text{tf}"-" \text{idf}_{(w,k)}^{(i)} = \text{average} \, \text{tf}_{(w,k)}^{(i)} \times \text{idf}_w $
+
 
