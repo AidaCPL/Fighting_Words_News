@@ -1,1 +1,5 @@
+# DATA: Dataset Description
+The following page shows the overview of the dataset used for the research. Namely, it includes a description of the dataset and its source, a data dictionary, and the justification of why this dataset is useful to answer the research question. 
 
+
+The dataset used in this research project was obtained from Kaggle and comprises excerpts from video news segments from various news outlets on environmental issues (Amritvir, 2021). The dataset provides snippets of transcripts on TV news from four specific news outlets spanning the period from 2009 to 2020. These outlets include BBC News, MSNBC News, CNN, and Fox News. While the American news outlets cover the entire time range, BBC News data is available from 2017 to 2020. This dataset was chosen primarily for its focus on environmental topics and its availability of transcript excerpts, which eliminates the need for direct scraping from the original sources. Despite limitations such as containing only snippets of transcripts, the dataset remains valuable for exploring the Fightin’ Words methodology proposed by Monroe et al. 
