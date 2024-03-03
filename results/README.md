@@ -77,10 +77,18 @@ Fox News emphasizes attributing blame and expressing opinions on environmental t
 ## TF-IDF
 Comparing TF-IDF and Fighting Words helps evaluate model performance and interpretability. TF-IDF, a traditional method for feature extraction, assesses word importance by considering frequency within a document and rarity across the corpus. In contrast, Fighting Words, by Monroe et al., identifies words significantly associated with one group versus another. By comparing both methods' outputs, we can capture linguistic nuances and distinctive features in environmental news coverage, as well as comparing the innovative method with a baseline that is traditionally used. Moreover, Matthew Denny in his paper “Revisiting Fightin’ Words: Feature Selection Using an Informed Dirichlet Model” (2016) provides an alternative approach to improve TF-IDF. He proposes the following measure:
 
-$$
-\text{tf-idf}^{(i)}_{(w,k)} = \text{average} \times \text{tf}_{(w,k)}^{(i)} \times \text{idf}_{w}
-$$
+<img src="equation.png" alt="tf-idf equation" width="600"/>
 
+Thus, in order to evaluate the Fightin’ Words method, the highest weigthed words of each document will be retrieved now using the modified tf-idf. 
 
+<img src="tf-idf_plot_CNN copy.png" alt="Flowchart" width="600"/>
 
+<img src="tf-idf_plot_FOXNEWS copy.png" alt="Flowchart" width="600"/>
 
+<img src="tf-idf_plot_MSNBC copy.png" alt="Flowchart" width="600"/>
+
+*Figure 5 Feature evaluation and selection based on modified tf-idf, which is the average the term frequency over all documents and multiplied inverse document frequency term to get the tf-idf scores.*
+
+Notably, the top words identified by TF-IDF for CNN, Fox News, and MSNBC are highly similar, indicating shared vocabulary in their reporting. However, differences in TF-IDF scores reveal variations in word frequency and distribution across articles. While common words like "say," "think," "president," and "talk" appear across stations, their significance varies within each corpus. For example, while "say" and "think" may be prevalent across all stations, they hold different levels of significance in distinguishing articles within each corpus based on their respective TF-IDF scores.
+
+Comparing these results to the previously obtained with Fighting Words method, it is clear that although TF-IDF may be informative, the more intricate method of Fighting Words leads to more substatntial and interpretable results. In other words, although the similar words in each document have different average TF-IDF, the Fighting Words method undoubtedly allowed us to make assumptions on the priorities of the stations when making narratives. 
