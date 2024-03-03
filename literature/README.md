@@ -42,8 +42,6 @@ This research advances existing literature by:
 - Providing insights into the theoretical and conceptual uniqueness of language production in politics.
 - Inspiring future research directions aimed at unlocking the full potential of political text analysis.
 
-## Conclusion:
-In conclusion, this paper contributes to the advancement of political science methodology by introducing innovative techniques for identifying and evaluating lexical features in political discourse. By addressing limitations in existing methods, the research opens new avenues for understanding political conflict and dynamics. Moving forward, further refinement and application of these techniques promise to enhance our ability to analyze and interpret political texts, thereby enriching our understanding of political processes and structures.
 
 ### Connection between Current Literature and Project Idea
 
